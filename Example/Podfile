@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleDialog_Example' do
+  pod 'SimpleDialog', :path => '../'
+
+  target 'SimpleDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
