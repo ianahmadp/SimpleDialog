@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		436CB600218063F000079CDC /* SimpleDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CB5FF218063F000079CDC /* SimpleDialog.swift */; };
+		436CB600218063F000079CDC /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CB5FF218063F000079CDC /* Dialog.swift */; };
 		679618C8B89DBA28B8F0B545CFD316BD /* Pods-SimpleDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A19FFD98A45233B814219AF998145F /* Pods-SimpleDialog_Example-dummy.m */; };
 		7C8BE3D45F4E50DBF7528B542729C86E /* Pods-SimpleDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD07A9412F59685B042C7891F017F82 /* Pods-SimpleDialog_Tests-dummy.m */; };
 		C1F6183405693710E64DBC8F4035C1A5 /* SimpleDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DBDB8FB98CCF9DFA9ABF09666E4B62 /* SimpleDialog-dummy.m */; };
@@ -37,7 +37,7 @@
 		1EAB541BB042CEE13B48278D1DCD2315 /* Pods-SimpleDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2992A5050B9AA530ACFE1050DE357CE7 /* Pods-SimpleDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D45476B6A77341B05A97899C5E34767 /* Pods-SimpleDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		436CB5FF218063F000079CDC /* SimpleDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDialog.swift; sourceTree = "<group>"; };
+		436CB5FF218063F000079CDC /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 		480DB5667E532BC79DC25E6D08AB4FD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		543D755CC6BB4215DA8BDEA54F80F0C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -100,7 +100,7 @@
 		436CB5FC2180637B00079CDC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				436CB5FF218063F000079CDC /* SimpleDialog.swift */,
+				436CB5FF218063F000079CDC /* Dialog.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -395,7 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED63C222083026C21BAD9202EE82E91D /* ReplaceMe.swift in Sources */,
-				436CB600218063F000079CDC /* SimpleDialog.swift in Sources */,
+				436CB600218063F000079CDC /* Dialog.swift in Sources */,
 				C1F6183405693710E64DBC8F4035C1A5 /* SimpleDialog-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

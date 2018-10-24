@@ -10,12 +10,11 @@ import UIKit
 import SimpleDialog
 
 class ViewController: UIViewController {
-    let dialog = SimpleDialog()
+    let dialog = Dialog()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dialog.alertShow(title: "Hai", message: "Coba-coba dulu aja", controller: self)
     }
 
     override func didReceiveMemoryWarning() {

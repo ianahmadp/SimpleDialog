@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class SimpleDialog{
+public class Dialog{
     
     public init(){}
     
