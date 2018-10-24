@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SimpleDialog
 
 class ViewController: UIViewController {
+    let dialog = SimpleDialog()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        dialog.alertShow(title: "Hai", message: "Coba-coba dulu aja", controller: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +23,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func pressTampilkan(_ sender: Any) {
+        dialog.alertShow(title: "Hai", message: "Coba-coba dulu aja", controller: self)
+    }
 }
 

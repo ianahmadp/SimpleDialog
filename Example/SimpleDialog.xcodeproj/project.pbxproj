@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C21950CD78F1222503D6981 /* Pods-SimpleDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDialog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDialog_Example/Pods-SimpleDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A2377DE4F8F3479E9158593C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B41D2C29466A27216754E7FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A2377DE4F8F3479E9158593C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B41D2C29466A27216754E7FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BBEB7660DDA69C9350B851DD /* Pods_SimpleDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E578B3437A9F02DBD84EA448 /* Pods-SimpleDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDialog_Tests/Pods-SimpleDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8C092099051C89CA4FBB812 /* SimpleDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleDialog.podspec; path = ../SimpleDialog.podspec; sourceTree = "<group>"; };
+		F8C092099051C89CA4FBB812 /* SimpleDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleDialog.podspec; path = ../SimpleDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GRW3SQRG2A;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -541,6 +542,7 @@
 			baseConfigurationReference = 6C21950CD78F1222503D6981 /* Pods-SimpleDialog_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GRW3SQRG2A;
 				INFOPLIST_FILE = SimpleDialog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -556,6 +558,7 @@
 			baseConfigurationReference = 5497D03D4F875D36E557EC41 /* Pods-SimpleDialog_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GRW3SQRG2A;
 				INFOPLIST_FILE = SimpleDialog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

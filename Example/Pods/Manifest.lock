@@ -1,0 +1,16 @@
+PODS:
+  - SimpleDialog (0.1.0)
+
+DEPENDENCIES:
+  - SimpleDialog (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleDialog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleDialog: c569f7c99d7e9034d6f0510efc6bbd701cbb9bae
+
+PODFILE CHECKSUM: bc41dfab2c397250a1d37e11b5beb24c26b38b93
+
+COCOAPODS: 1.4.0

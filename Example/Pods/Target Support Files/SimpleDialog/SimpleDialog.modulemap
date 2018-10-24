@@ -1,0 +1,6 @@
+framework module SimpleDialog {
+  umbrella header "SimpleDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}
