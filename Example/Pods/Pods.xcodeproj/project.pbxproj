@@ -97,14 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		436CB5FC2180637B00079CDC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				436CB5FF218063F000079CDC /* Dialog.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +129,8 @@
 		B1C583B5227B429977F4C7EC4D2232D5 /* SimpleDialog */ = {
 			isa = PBXGroup;
 			children = (
-				436CB5FC2180637B00079CDC /* Classes */,
 				B6A0D9EF4F4B245B2918ECC894FCBE33 /* ReplaceMe.swift */,
+				436CB5FF218063F000079CDC /* Dialog.swift */,
 				708A1B39F85B8D87C07F5B1C45372456 /* Pod */,
 				D3EFCFA260D992A4201E30DE569478BC /* Support Files */,
 			);
